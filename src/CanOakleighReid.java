@@ -18,10 +18,10 @@ public class CanChinhamhora {
 
     /**
      * Non-default constructor
-     * @param company : String
-     * @param content : String
-     * @param size : double
-     * @param price : double
+     * @param company: String
+     * @param content: String
+     * @param size: Double
+     * @param price: Double
      */
     public CanChinhamhora( String company, String content, double size, double price ) {
         this.company = company;
@@ -32,7 +32,7 @@ public class CanChinhamhora {
 
     /**
      * Returns company
-     * @return company : String
+     * @return company: String
      */
     public String getCompany() {
         return company;
@@ -40,7 +40,7 @@ public class CanChinhamhora {
 
     /**
      * Sets company
-     * @param company : String
+     * @param company: String
      */
     public void setCompany( String company ) {
         this.company = company;
@@ -48,7 +48,7 @@ public class CanChinhamhora {
 
     /**
      * Returns content
-     * @return content : String
+     * @return content: String
      */
     public String getContent() {
         return content;
@@ -56,7 +56,7 @@ public class CanChinhamhora {
 
     /**
      * Sets content
-     * @param content : String
+     * @param content: String
      */
     public void setContent( String content ) {
         this.content = content;
@@ -64,7 +64,7 @@ public class CanChinhamhora {
 
     /**
      * Returns can size
-     * @return size : double
+     * @return size: Double
      */
     public double getSize() {
         return size;
@@ -72,7 +72,7 @@ public class CanChinhamhora {
 
     /**
      * Sets can size
-     * @param size : double
+     * @param size: Double
      */
     public void setSize( double size ) {
         this.size = size;
@@ -80,7 +80,7 @@ public class CanChinhamhora {
 
     /**
      * Returns can price
-     * @return price : double
+     * @return price: double
      */
     public double getPrice() {
         return price;
@@ -88,7 +88,7 @@ public class CanChinhamhora {
 
     /**
      * Sets can price
-     * @param price : double
+     * @param price: double
      */
     public void setPrice( double price ) {
         this.price = price;
